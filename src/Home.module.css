@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(250,250,250);
+}
+.container{
+    display: flex;
+ flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.image{
+    /* color: rgb(64, 64, 163); */
+    width: 370px;
+    margin-bottom: -80px;
+    margin-top: -20px;
+   
+    animation: rotation 20s infinite linear;
+}
+
+@keyframes rotation {
+    from {transform: rotate(0deg);}
+    to   {transform: rotate(359deg);}
+}
+
+@media(max-width:770px)
+{
+    .container{
+        margin:0 10%
+    }
+    
+}

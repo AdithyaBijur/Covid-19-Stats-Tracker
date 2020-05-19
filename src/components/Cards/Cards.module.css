@@ -1,0 +1,31 @@
+.container{
+    margin: 50px 0;
+}
+
+.card
+{
+    margin:0 1em !important   
+}
+.total
+{
+    border-bottom: 10px solid rgba(87, 20, 143, 0.5);
+}
+.active
+{
+    border-bottom: 10px solid rgba(0,0,255,0.5);
+}
+.recovered
+{
+    border-bottom: 10px solid rgba(0,255,0,0.5);
+}
+.death
+{
+    border-bottom: 10px solid rgba(255,0,0,0.5);
+}
+@media(max-width:770px)
+{
+    .card{
+        margin:2% 0 !important
+    }
+    
+}
